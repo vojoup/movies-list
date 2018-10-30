@@ -1,0 +1,20 @@
+$spacing: 1rem;
+$main-color: #f1f1f1;
+$width: 300px;
+
+.back {
+  border: solid 1px $main-color;
+  background-color: $main-color;
+  color: #282c34;
+  border-radius: 3px;
+  padding: $spacing/3;
+  position: absolute;
+  top: 30px;
+  left: 40px;
+
+  &:hover {
+    cursor: pointer;
+    background-color: darken($main-color, 30);
+    transition: background-color 600ms;
+  }
+}

@@ -1,0 +1,30 @@
+$spacing: 1rem;
+$main-color: #f1f1f1;
+$width: 70vh;
+
+.movie-detail {
+  text-align: left;
+  border: $main-color 1px solid;
+  padding: $spacing;
+  margin: 2rem auto;
+  width: $width;
+  justify-self: center;
+
+  .heading {
+    display: inline-flex;
+    align-items: center;
+
+    img {
+      max-width: 183px;
+      max-height: 275px;
+      margin-right: $spacing;
+    }
+  }
+
+  .film-prop {
+    font-weight: 700;
+    span {
+      font-weight: 400;
+    }
+  }
+}

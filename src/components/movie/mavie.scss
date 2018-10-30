@@ -1,0 +1,21 @@
+$spacing: 1rem;
+$main-color: #f1f1f1;
+$width: 300px;
+
+.movie {
+  border: 1px solid $main-color;
+  border-radius: 5px;
+  padding: $spacing;
+  margin: 2 * $spacing;
+  width: $width;
+  align-self: center;
+
+  &:hover {
+    cursor: pointer;
+
+    h2::after {
+      content: ' 👉';
+      font-size: 1.3rem;
+    }
+  }
+}
